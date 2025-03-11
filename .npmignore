@@ -1,0 +1,51 @@
+# Source files
+src/
+tests/
+__tests__/
+*.test.ts
+*.spec.ts
+
+# Config files
+tsconfig.json
+jest.config.js
+.gitignore
+.npmignore
+.editorconfig
+.eslintrc
+.prettierrc
+.travis.yml
+.github/
+
+# Development files
+coverage/
+.vscode/
+.idea/
+*.sublime-*
+.cache/
+
+# Docs and examples
+docs/
+examples/
+*.md
+!README.md
+
+# Git
+.git/
+.gitignore
+
+# Logs
+*.log
+npm-debug.log*
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Lock files
+yarn.lock
+package-lock.json
